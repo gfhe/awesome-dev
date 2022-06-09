@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Build smartIDE image and push Dockerhub
 
 on:
   push:
