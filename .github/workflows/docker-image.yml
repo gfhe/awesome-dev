@@ -31,6 +31,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: awesome-dev/dev/smartide/Dockerfile
+          file: ../../dev/smartide/Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/smartide:latest
