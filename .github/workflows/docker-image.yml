@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - 
+        name: Current Path
+        run: pwd
       -
         name: Checkout 
         uses: actions/checkout@v2
