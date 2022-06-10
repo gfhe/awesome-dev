@@ -2,7 +2,7 @@ FROM hgfkeep/ubuntu
 MAINTAINER hgf
 
 RUN curl -fsSL https://get.docker.com | sh
-RUN apt install -y docker-compose python3 ncat ping htop
+RUN apt install -y docker-compose python3 ncat inetutils-ping htop
 
 RUN curl -OL  "https://smartidedl.blob.core.chinacloudapi.cn/releases/$(curl -L -s https://smartidedl.blob.core.chinacloudapi.cn/releases/stable.txt)/smartide-linux" \
 && mv -f smartide-linux /usr/local/bin/smartide \
