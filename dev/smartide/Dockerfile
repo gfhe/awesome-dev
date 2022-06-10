@@ -1,6 +1,7 @@
 FROM hgfkeep/ubuntu
 MAINTAINER hgf
 
+RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
 RUN curl -fsSL https://get.docker.com | sh
 RUN apt install -y docker-compose python3 ncat inetutils-ping htop
 
