@@ -10,4 +10,4 @@ RUN curl -OL  "https://smartidedl.blob.core.chinacloudapi.cn/releases/$(curl -L 
 && ln -s -f /usr/local/bin/smartide /usr/local/bin/se \
 && chmod +x /usr/local/bin/smartide
 
-RUN git clone https://gitee.com/smartide/smartide-templates ~/.ide/template
+RUN git clone https://github.com/smartide/smartide-templates ~/.ide/template
