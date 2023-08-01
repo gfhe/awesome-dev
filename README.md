@@ -11,13 +11,19 @@
 
 ### 核心依赖
 
+包含开发使用的各类服务和平时使用的工具。
+
 1. kafka：[一键运行脚本](./dev/kafka/start_kafka.sh)
-2. mysql：[一键运行脚本](./dev/mysql/start_mysql.sh)
-3. redis：[一键运行脚本](./dev/redis/start_redis.sh)
-4. zookeeper：[一键运行脚本](./dev/zookeeper/start_zookeeper.sh)
-5. es: [docker-compose](./dev/es/docker-compose.yml)
-6. rust-jupyter: [docker-compose](./dev/rust/docker-compose.yml) (详细情况参考：[docker-rust-jupyter](https://github.com/hgfkeep/rust-jupyter))
-7. mongo: [一键运行脚本](./dev/mongo/start_mongo.sh)
+1. mysql：[一键运行脚本](./dev/mysql/start_mysql.sh)
+1. redis：[一键运行脚本](./dev/redis/start_redis.sh)
+1. zookeeper：[一键运行脚本](./dev/zookeeper/start_zookeeper.sh)
+1. es: [docker-compose](./dev/es/docker-compose.yml)
+1. rust-jupyter: [docker-compose](./dev/rust/docker-compose.yml) (详细情况参考：[docker-rust-jupyter](https://github.com/hgfkeep/rust-jupyter))
+1. mongo: [一键运行脚本](./dev/mongo/start_mongo.sh)
+1. [gitlab代码仓库](./service/gitlab/start_gitlab.sh)
+1. [部署harbor容器仓库](./service/harbor.md)
+1. [aria2+webUI实现离线下载服务](./service/offline_downloader.md)
+1. [VPN服务](./service/vpn)
 
 ## hugo
 
@@ -34,9 +40,10 @@
 * Snazzy.itermcolors
 * material-design-colors.itermcolors
 
-## kubernetes有用的脚本
+## 工具集
 
-* [批量推送镜像到dockerhub](./kubernetes/push_images_to_registry.sh)
+* [批量推送镜像到dockerhub](./tools/image_sync/push_images_to_registry.sh)
+* [快速调试pod](./tools/busybox-pvc.sh)
 
 ## terminal
 
@@ -49,9 +56,5 @@ terminal 常用的命令配置
 
 ## 服务部署
 
-1. [gitlab代码仓库](./service/gitlab/start_gitlab.sh)
-2. [部署harbor容器仓库](./service/harbor.md)
-3. [aria2+webUI实现离线下载服务](./service/offline_downloader.md)
-4. [VPN服务](./service/vpn)
 
 

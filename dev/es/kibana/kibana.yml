@@ -1,4 +1,0 @@
-server.name: kibana
-server.host: "127.0.0.1"
-elasticsearch.hosts: [ "https://hgf-2324610421.us-east-1.bonsaisearch.net:443" ]
-xpack.monitoring.ui.container.elasticsearch.enabled: true
