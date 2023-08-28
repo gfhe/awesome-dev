@@ -1,0 +1,7 @@
+FROM hgfkeep/ubuntu:base
+MAINTAINER hgf 
+
+ENV password=hgfgood
+EXPOSE 22
+
+RUN apt update; apt install -y g++ cmake libboost-dev;
